@@ -16,3 +16,5 @@ This is just a placeholder for now ... basic dependencies from the build documen
 This is probably good enough and is the reason that this repo is on-hold. We have not deleted it yet because there may be some interest still in having a quickly deployable and footprint-minimized image based on the already small **wheezy** base image of Debian. 
 
 If anyone wants to use this as a starting point by all means do so ... it is a reasonable starting point. If you're able to work around the compilation error that currently plagues this starting point then please drop us a PR and we'll incorporate it in.
+
+> **Note:** while not mentioned above, our intent is to use the [jsawk](https://github.com/micha/jsawk) and [resty](https://github.com/micha/resty) components which are great for DevOps which need to interact with RESTful API's and JSON. Both are dependant on a JS engine and hence the SpiderMoney business.
